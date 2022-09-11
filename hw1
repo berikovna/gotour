@@ -1,3 +1,4 @@
+Zhumash Tansholpan
 # 1. given a number x, we want to find the number z for which z² is most nearly x.
 
 package main
