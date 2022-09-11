@@ -31,7 +31,6 @@ func main() {
 //i = 10, z = 1.414213562373095, z squared = 1.9999999999999996
 //sqrt of 2 =  1.414213562373095
 
-
 # 2. change the loop condition to stop once the value has stopped changing 
  
 package main
