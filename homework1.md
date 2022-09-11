@@ -1,7 +1,7 @@
 # gotour
-# 1TASK
-# given a number x, we want to find the number z for which z² is most nearly x.
-//
+ 1TASK
+ given a number x, we want to find the number z for which z² is most nearly x.
+
 package main
 import (
     "fmt"
