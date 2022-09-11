@@ -2,21 +2,36 @@
 given a number x, we want to find the number z for which z² is most nearly x.
 
 package main
+
 import (
+
     "fmt"
+    
 )
 func Sqrt(x float64) float64 {
+
     z := 1.0
+    
     for i := 1; i <= 10; i++ {
+    
         z -= (z * z - x) / (2 * z)
+	
 		    l := z * z
+		    
         fmt.Printf("i = %v, z = %v, pow_of_z = %v\n", i, z, l)
+	
     }
+    
     return z
+    
 }
+
 func main() {
+
     fmt.Println("sqrt of 2 = ",Sqrt(2))
+    
 }
+
 
  в итоге мы получаем такой вывод. как мы видим,мы нашли число z, для которого z² наиболее близко к x(i = 2).
 //i = 1, z = 1.5, z squared = 2.25
