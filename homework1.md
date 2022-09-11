@@ -1,8 +1,6 @@
-# 1TASK
-given a number x, we want to find the number z for which z² is most nearly x.
+# 1. given a number x, we want to find the number z for which z² is most nearly x.
 
 package main
-
 import (
     "fmt"
 )
@@ -34,8 +32,7 @@ func main() {
 //sqrt of 2 =  1.414213562373095
 
 
-# 2 TASK
-change the loop condition to stop once the value has stopped changing 
+# 2. change the loop condition to stop once the value has stopped changing 
  
 package main
 import (
