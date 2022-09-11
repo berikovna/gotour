@@ -18,8 +18,8 @@ func main() {
     fmt.Println("sqrt of 2 = ",Sqrt(2))
 }
 
-# в итоге мы получаем такой вывод. как мы видим,мы нашли число z, для которого z² наиболее близко к x(i = 2).
-**//i = 1, z = 1.5, z squared = 2.25
+ в итоге мы получаем такой вывод. как мы видим,мы нашли число z, для которого z² наиболее близко к x(i = 2).
+//i = 1, z = 1.5, z squared = 2.25
 //i = 2, z = 1.4166666666666667, z squared = 2.0069444444444446
 //i = 3, z = 1.4142156862745099, z squared = 2.000006007304883
 //i = 4, z = 1.4142135623746899, z squared = 2.0000000000045106
@@ -33,7 +33,7 @@ func main() {
 
 
 # 2 TASK
-# change the loop condition to stop once the value has stopped changing 
+change the loop condition to stop once the value has stopped changing 
 
 package main
 import (
@@ -57,8 +57,8 @@ func main() {
     fmt.Println("sqrt of 2 = ",Sqrt(2))
 }
 
-# в итоге мы получаем такой вывод.
-**//i = 1,  z = 1.5
+в итоге мы получаем такой вывод.
+ //i = 1,  z = 1.5
  //i = 2,  z = 1.4166666666666667
  //i = 3,  z = 1.4142156862745099
  //i = 4,  z = 1.4142135623746899
