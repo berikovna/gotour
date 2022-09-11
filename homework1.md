@@ -34,7 +34,7 @@ func main() {
 
 # 2 TASK
 change the loop condition to stop once the value has stopped changing 
-
+ 
 package main
 import (
     "fmt"
